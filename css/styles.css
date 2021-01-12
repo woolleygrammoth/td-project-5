@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+input {
+    margin-top: 20px;
+    margin-bottom: 1.5em;
+    padding: 10px;
+    width: 35%;
+    border: 1px solid #c9d3d1;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #959c9a;
+}
+
+.container {
+    margin: auto;
+    display: grid; 
+    max-width: 850px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 18px 15px;
+}
