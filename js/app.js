@@ -65,7 +65,7 @@ const alts = [
     'Jenga covered in mud after playing fetch', 
     'Graham and dance team during a performance'
 ];
-for (let i = 1; i <= 30; i++) {
+for (let i = 1; i <= dataCaptions.length; i++) {
     if (i < 10) {
         var number = `0${i}`;
     } else {
